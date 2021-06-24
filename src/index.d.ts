@@ -18,118 +18,118 @@ import {
 type Color = string
 
 export interface Theme {
-  primary: {
-    main: Color
-    dark: Color
-    light: Color
+  primary?: {
+    main?: Color
+    dark?: Color
+    light?: Color
   }
-  secondary: {
-    main: Color
-    dark: Color
-    light: Color
+  secondary?: {
+    main?: Color
+    dark?: Color
+    light?: Color
   }
-  textColor: {
-    primary: Color
-    secondary: Color
-    disabled: Color
-    hint: Color
+  textColor?: {
+    primary?: Color
+    secondary?: Color
+    disabled?: Color
+    hint?: Color
   }
-  text: {}
-  background: {
-    default: Color
+  text?: {}
+  background?: {
+    default?: Color
   }
-  action: {
-    active: Color
-    hover: Color
-    hoverOpacity: number
-    selected: Color
-    disabled: Color
-    disabledBackground: Color
-    paper: {
-      backgroundColor: Color
-      borderRadius: number
+  action?: {
+    active?: Color
+    hover?: Color
+    hoverOpacity?: number
+    selected?: Color
+    disabled?: Color
+    disabledBackground?: Color
+    paper?: {
+      backgroundColor?: Color
+      borderRadius?: number
     }
-    divider: {
-      width: string
-      backgroundColor: Color
+    divider?: {
+      width?: string
+      backgroundColor?: Color
     }
-    buttonText: {
-      fontSize: number
-      fontWight: string
-      letterSpacing: number
-      color: Color
+    buttonText?: {
+      fontSize?: number
+      fontWight?: string
+      letterSpacing?: number
+      color?: Color
     }
-    outlinedButton: {
-      borderColor: Color
-      borderWidth: StyleSheetProperties['hairlineWidth']
-      paddingOrizontal: number
+    outlinedButton?: {
+      borderColor?: Color
+      borderWidth?: StyleSheetProperties['hairlineWidth']
+      paddingOrizontal?: number
     }
-    containedButton: {
-      paddingHorizontal: number
-      backgroundColor: Color
+    containedButton?: {
+      paddingHorizontal?: number
+      backgroundColor?: Color
     }
-    bodyText: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    bodyText?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    bodyTextTwo: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    bodyTextTwo?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    caption: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    caption?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    headingOne: {
-      fontWeight: string
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    headingOne?: {
+      fontWeight?: string
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    headingTwo: {
-      fontWeight: string
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    headingTwo?: {
+      fontWeight?: string
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    headingThree: {
-      fontSize: number
-      lineHeight: number
+    headingThree?: {
+      fontSize?: number
+      lineHeight?: number
     }
-    headingFour: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    headingFour?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    headingFive: {
-      fontSize: number
-      lineHeight: number
+    headingFive?: {
+      fontSize?: number
+      lineHeight?: number
     }
-    headingSix: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
-      fontWeight: string
+    headingSix?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
+      fontWeight?: string
     }
-    overline: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
-      textTransform: string
+    overline?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
+      textTransform?: string
     }
-    subtitleOne: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
+    subtitleOne?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
     }
-    subtitleTwo: {
-      fontSize: number
-      lineHeight: number
-      letterSpacing: number
-      fontWeight: string
+    subtitleTwo?: {
+      fontSize?: number
+      lineHeight?: number
+      letterSpacing?: number
+      fontWeight?: string
     }
   }
 }
