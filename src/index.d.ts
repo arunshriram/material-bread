@@ -710,7 +710,7 @@ export class RadioButton extends React.Component<RadioButtonProps> {
 
 export interface RippleProps
   extends ViewProps,
-    TouchableWithoutFeedbackProps {
+  TouchableWithoutFeedbackProps {
   rippleColor?: Color
   rippleOpacity?: number
   rippleDuration?: number
@@ -1325,6 +1325,7 @@ export interface DrawerItemProps {
   style?: StyleProp<any>
   text?: string
   icon?: string
+  iconComponent?: React.Component
   onPress?: (e: GestureResponderEvent) => void
   active?: boolean
 }
