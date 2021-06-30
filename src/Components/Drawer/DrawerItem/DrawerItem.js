@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { Text } from 'react-native';
 import withTheme from '../../../Theme/withTheme';
 import Ripple from '../../Ripple/Ripple';
-import Icon from '../../Icon/Icon';
+// import Icon from '../../Icon/Icon';
+import Icon from '../../Icon/CustomIcon';
 
 class DrawerItem extends Component {
   static propTypes = {
